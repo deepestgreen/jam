@@ -7,17 +7,17 @@
 		{
 			"bufferView":0,
 			"componentType":5123,
-			"count":6528,
+			"count":6540,
 			"type":"SCALAR",
 			"min":[0
 			],
-			"max":[1638
+			"max":[1644
 			]
 		},
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":1639,
+			"count":1645,
 			"type":"VEC3",
 			"min":[-1.43363822,-0.0299999993,-1.39813495
 			],
@@ -27,7 +27,7 @@
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":1639,
+			"count":1645,
 			"type":"VEC2",
 			"min":[0,0
 			],
@@ -37,7 +37,7 @@
 		{
 			"bufferView":3,
 			"componentType":5126,
-			"count":1639,
+			"count":1645,
 			"type":"VEC3",
 			"min":[-0.999981225,-0.999878347,-0.999955714
 			],
@@ -47,33 +47,33 @@
 	],
 	"buffers":[
 		{
-			"uri":"points.bin",
-			"byteLength":65504,
+			"uri":"test1_clean_data.bin",
+			"byteLength":65720,
 			"name":"main_buffer"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":13056,
+			"byteLength":13080,
 			"target":34963
 		},
 		{
 			"buffer":0,
-			"byteOffset":13056,
-			"byteLength":19668,
+			"byteOffset":13080,
+			"byteLength":19740,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteOffset":32724,
-			"byteLength":13112,
+			"byteOffset":32820,
+			"byteLength":13160,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteOffset":45836,
-			"byteLength":19668,
+			"byteOffset":45980,
+			"byteLength":19740,
 			"target":34962
 		}
 	],
@@ -95,7 +95,7 @@
 					"indices":0
 				}
 			],
-			"name":"clean2"
+			"name":"attribdelete4"
 		}
 	],
 	"scenes":[

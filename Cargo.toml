@@ -5,12 +5,10 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
-[profile.dev.dependencies]
-bevy = { version = "*", features = ["dynamic"] }
-
-[profile.release.dependencies]
-bevy = { version = "*" }
-
 [dependencies]
-bevy = { version = "*" }
+bevy = { version = "0.6", features = ["dynamic"] }
+#bevy = "0.6"
+
+[patch.crates-io]
+bevy = { git = "https://github.com/bevyengine/bevy" }
 

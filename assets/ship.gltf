@@ -6,74 +6,74 @@
 	"accessors":[
 		{
 			"bufferView":0,
-			"componentType":5123,
-			"count":6528,
+			"componentType":5125,
+			"count":127596,
 			"type":"SCALAR",
 			"min":[0
 			],
-			"max":[1638
+			"max":[37782
 			]
 		},
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":1639,
+			"count":37783,
 			"type":"VEC3",
-			"min":[-1.43363822,-0.0299999993,-1.39813495
+			"min":[-6.17621756,-7.02357626,-2.91683602
 			],
-			"max":[1.3352263,0.0299999993,1.36076403
+			"max":[6.17621756,5.27357578,20.7552433
 			]
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":1639,
+			"count":37783,
 			"type":"VEC2",
-			"min":[0,0
+			"min":[0,0.0288204551
 			],
-			"max":[1,1
+			"max":[0.999985039,1
 			]
 		},
 		{
 			"bufferView":3,
 			"componentType":5126,
-			"count":1639,
+			"count":37783,
 			"type":"VEC3",
-			"min":[-0.999981225,-0.999878347,-0.999955714
+			"min":[-1,-1,-1
 			],
-			"max":[0.999303699,0.999878347,0.999996781
+			"max":[1,1,1
 			]
 		}
 	],
 	"buffers":[
 		{
-			"uri":"points.bin",
-			"byteLength":65504,
+			"uri":"ShipTest1Clean_data.bin",
+			"byteLength":1719440,
 			"name":"main_buffer"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":13056,
+			"byteLength":510384,
 			"target":34963
 		},
 		{
 			"buffer":0,
-			"byteOffset":13056,
-			"byteLength":19668,
+			"byteOffset":510384,
+			"byteLength":453396,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteOffset":32724,
-			"byteLength":13112,
+			"byteOffset":963780,
+			"byteLength":302264,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteOffset":45836,
-			"byteLength":19668,
+			"byteOffset":1266044,
+			"byteLength":453396,
 			"target":34962
 		}
 	],
@@ -95,7 +95,7 @@
 					"indices":0
 				}
 			],
-			"name":"clean2"
+			"name":"attribdelete5"
 		}
 	],
 	"scenes":[

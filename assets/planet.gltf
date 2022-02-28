@@ -6,74 +6,90 @@
 	"accessors":[
 		{
 			"bufferView":0,
-			"componentType":5123,
-			"count":6528,
+			"componentType":5125,
+			"count":209682,
 			"type":"SCALAR",
 			"min":[0
 			],
-			"max":[1638
+			"max":[73639
 			]
 		},
 		{
 			"bufferView":1,
 			"componentType":5126,
-			"count":1639,
+			"count":73640,
 			"type":"VEC3",
-			"min":[-1.43363822,-0.0299999993,-1.39813495
+			"min":[-0.516306698,-0.527717233,-0.524722219
 			],
-			"max":[1.3352263,0.0299999993,1.36076403
+			"max":[0.521305859,0.525828242,0.511627853
 			]
 		},
 		{
 			"bufferView":2,
 			"componentType":5126,
-			"count":1639,
+			"count":73640,
 			"type":"VEC2",
-			"min":[0,0
+			"min":[0,0.000712275505
 			],
-			"max":[1,1
+			"max":[1.11749434,0.996824205
 			]
 		},
 		{
 			"bufferView":3,
 			"componentType":5126,
-			"count":1639,
+			"count":73640,
 			"type":"VEC3",
-			"min":[-0.999981225,-0.999878347,-0.999955714
+			"min":[-1,-0.999986649,-1
 			],
-			"max":[0.999303699,0.999878347,0.999996781
+			"max":[1,0.999978364,1
+			]
+		},
+		{
+			"bufferView":4,
+			"componentType":5126,
+			"count":73640,
+			"type":"VEC3",
+			"min":[-0.534137309,-0.036215432,-0.33976689
+			],
+			"max":[0.968559861,0.99769783,1.26138222
 			]
 		}
 	],
 	"buffers":[
 		{
-			"uri":"points.bin",
-			"byteLength":65504,
+			"uri":"planet.bin",
+			"byteLength":4078888,
 			"name":"main_buffer"
 		}
 	],
 	"bufferViews":[
 		{
 			"buffer":0,
-			"byteLength":13056,
+			"byteLength":838728,
 			"target":34963
 		},
 		{
 			"buffer":0,
-			"byteOffset":13056,
-			"byteLength":19668,
+			"byteOffset":838728,
+			"byteLength":883680,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteOffset":32724,
-			"byteLength":13112,
+			"byteOffset":1722408,
+			"byteLength":589120,
 			"target":34962
 		},
 		{
 			"buffer":0,
-			"byteOffset":45836,
-			"byteLength":19668,
+			"byteOffset":2311528,
+			"byteLength":883680,
+			"target":34962
+		},
+		{
+			"buffer":0,
+			"byteOffset":3195208,
+			"byteLength":883680,
 			"target":34962
 		}
 	],
@@ -88,14 +104,15 @@
 			"primitives":[
 				{
 					"attributes":{
+						"COLOR":4,
 						"NORMAL":3,
-						"TEXCOORD_0":2,
+						"TEXCOORD":2,
 						"POSITION":1
 					},
 					"indices":0
 				}
 			],
-			"name":"clean2"
+			"name":"attribpromote5"
 		}
 	],
 	"scenes":[
